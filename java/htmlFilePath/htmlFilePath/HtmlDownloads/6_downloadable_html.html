@@ -1,0 +1,33 @@
+<html><head><style>* { box-sizing: border-box; } body {margin: 0;}#ivmb{width:100%;padding:10px 0px;margin-left:0px;}#iv6f{min-height:45px;}#ipyk{width:100%;padding:10px 0px;margin-left:0px;}#i7fj{min-height:45px;}#i74f{min-height:45px;}#in0i{min-height:45px;}#ig35{min-height:45px;}#i7yf{padding:10px;}#iw95u{padding:10px;my-input-json:SA[0].name;}#i2myk{padding:10px;}#imjui{padding:10px;my-input-json:SA[0].name;}  .navbar-div .hamburger-menu { display: none !important;  text-align: right;
+                        font-size: 30px; padding: 10px; color: #472e90; cursor: pointer;
+                      }  @media (max-width: 991px) {  .navbar-div .hamburger-menu { display: block !important; }
+                        .navbar-div .tab-container, .navbar-div .tab{ width:99%; text-align:center; }
+                       .navbar-div .tab-container{display:none}
+                      } 
+                      @media (max-width: 767px){ .navbar-div .hamburger-menu {   display: block !important; }
+                       .navbar-div .tab-container, .navbar-div .tab{
+                         width:98%; } 
+                      .navbar-div .tab-container{display:none}
+                      }</style></head><body><div class="row" id="ivmb"><div class="col-lg-12" id="iv6f"><div class="row" id="ipyk"><div class="col-lg-6" id="i7fj"><div id="i7yf">Name</div></div><div class="col-lg-6" id="i74f"><div id="imjui">Krushna</div></div><div class="col-lg-6" id="ig35"><div id="i2myk">Surname </div></div><div class="col-lg-6" id="in0i"><div id="iw95u">Kolhe</div></div></div></div></div></body><script>
+                      var hamburgerMenu = document.getElementById("hamburgerMenu"); 
+                          if(hamburgerMenu !==null){
+                            var tabContainer = document.querySelector(".tab-container");  
+                            hamburgerMenu.addEventListener("click", function() {
+                                if (tabContainer.style.display === "block") {
+                                  tabContainer.style.display = "none";
+                                } else {
+                                  tabContainer.style.display = "block";
+                                }
+                              });   
+                            function  updateView(){   
+                              const viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0); 
+                              const tabContainer = document.querySelector(".tab-container");  
+                              if (viewportWidth >= 991) {  
+                                tabContainer.style.display = "block";
+                              } else{
+                                tabContainer.style.display = "none";
+                              } 
+                            }  
+                            window.addEventListener('resize', updateView); 
+                          }
+                      </script></html>

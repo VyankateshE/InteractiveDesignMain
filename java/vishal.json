@@ -1,0 +1,52 @@
+{  
+   "english":{
+     "audioLink":"https://www.w3schools.com/html/horse.mp3", 
+     "content":"Content goes here content goes here", 
+     "content1":"Test Data content1",
+     "videoLink":"",
+      "SA":[
+         {
+            "name":"Vishal",
+            "surname":"Mishra",
+            "address":"Vasai"
+         } 
+      ],    
+       "transactions1Tbl":{ 
+          "heading": {
+          "Date":"Date",
+          "Type":"Type",
+          "Narration":"Narration",
+          "FCY_GBP":"FCY(GBP)",
+          "CurrentRate":"Currentt Rate",
+          "LCY_GBP":"LCY(GBP)" 
+       },
+       "caption": "Caption Text Here",
+       "footer": {
+        "Date":"12-08-2023",
+        "Type":"CR",
+        "Narration":"NEFT",
+        "FCY_GBP":"88",
+        "CurrentRate":"12",
+        "LCY_GBP":"33" 
+     },
+       "data":[
+          {
+             "Date":"3-APR-15",
+             "Type":"CR",
+             "Narration":"NET TXN: IIFL IIFL3557346",
+             "FCY_GBP":"1666.67",
+             "CurrentRate":"1.062",
+             "LCY_GBP":"1"
+          },
+          {
+             "Date":"1-APR-15",
+             "Type":"CR",
+             "Narration":"NEFT: 10204083732 -THE GREATER Bank of New York",
+             "FCY_GBP":"0.38",
+             "CurrentRate":"1.473",
+             "LCY_GBP":"2"
+          }
+       ]
+       }
+   }
+}
